@@ -128,6 +128,11 @@ section#indice button:active:after {
     box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
   }
 
+section#indice p:hover{
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
 .otherbackground{
     background-color: var(--color5);
 }
